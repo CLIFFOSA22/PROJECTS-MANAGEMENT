@@ -1,0 +1,9 @@
+#docker installatuion in ubuntu
+#!/bin/bash
+sudo hostname docker
+sudo hostnamectl set hostname docker  
+sudo apt update -y 
+sudo apt install docker.io -y
+#Add ubuntu as a username to the docker's user group by running the below line of code
+sudo usermod -aG docker ubuntu 
+sudo su - ubuntu
