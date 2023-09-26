@@ -1,4 +1,4 @@
-#JENKINS INSTALLTION SCRIPT
+#JENKINS INSTALLTION SCRIPT in ubuntu
 #Installing Prerequisites
 sudo apt update -y
 sudo apt install openjdk-17-jre -y
